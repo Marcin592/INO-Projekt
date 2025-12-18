@@ -11,4 +11,5 @@ void ustawienia()
 
 int main () {
 
+cout << "Jestem" << endl;
 }
