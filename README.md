@@ -1,10 +1,14 @@
-# INO-Projekt
-Projekt
-e
-e
-e
-e
-e
+#include <iostream> // wejscie / wyjscie
+#include <conio.h> // biblioteka do obslugi klawiatury 
+#include <windows.h> // biblioteka systemowa windows 
+#include <ctime> // do losowania pozycji owocow
 
-e
-essasito
+using namespace std;
+
+//zmienne globalne 
+bool koniec_gry; // stan gry - true oznacza koniec
+const int szerokosc = 20; // stala szerokosc planszy 
+const int wysokosc = 20; // stala wysokosc planszy
+int x, y; // wspolrzedne (x,y) glowy weza
+int wsp_owocu_X, wsp_owocu_Y; // wspolrzedne (x,y) owocu
+int wynik; // aktualny wynik gracza
