@@ -9,6 +9,4 @@ void ustawienia()
     wynik = 0; // zerowanie wyniku (na poczatku gry)
 
 
-int main () {
-cout << "hello";
-}
+
